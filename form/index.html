@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Maria Chernyak">
+	<title>workshop</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+
+
+</head>
+<body>
+	<div class="calendar box">
+		<header class="header-calendar">
+			<a href="#" class=" button prev-button"></a>
+			<a href="#" class="button next-button"></a>
+			<h3>May 2014</h3>
+		</header>
+		<div class="body-calendar">
+			<table>
+				<thead>
+					<tr>
+						<th>Sun</th>
+						<th>Mon</th>
+						<th>Tue</th>
+						<th>Wed</th>
+						<th>Thu</th>
+						<th>Fri</th>
+						<th>Sat</th>
+					</tr>
+				</thead>
+			<tbody>
+				<tr>
+					<td class="not-current">29</td>
+					<td class="not-current">30</td>
+					<td >1</td>
+					<td>2</td>
+					<td class="current-day">3</td>
+					<td>4</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td class="event">7</td>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+					<td>11</td>
+					<td>12</td>
+				</tr>
+				<tr>
+					<td>13</td>
+					<td>14</td>
+					<td>15</td>
+					<td>16</td>
+					<td>17</td>
+					<td>18</td>
+					<td>19</td>
+				</tr>
+				<tr>
+					<td>20</td>
+					<td>21</td>
+					<td>22</td>
+					<td class="event">23</td>
+					<td>24</td>
+					<td>25</td>
+					<td>26</td>
+				</tr>
+				<tr>
+					<td>27</td>
+					<td>28</td>
+					<td>29</td>
+					<td>30</td>
+					<td>31</td>
+					<td class="not-current">1</td>
+					<td class="not-current">2</td>
+				</tr>
+			</tbody>
+		</table>
+		 <input class="submit-button submit-calendar input-block" value="Add event">
+		</div>
+	</div>
+	<div class="booking box">
+		<header class="booking-header">
+			<img class="booking-img" src="img/paris.png">
+			<div class="location">
+				<h3>Hotel Relais</h3>
+				<span>Paris, France</span>
+			</div>
+		</header>
+		<form class="booking-form" action="#">
+		<fieldset>
+			<div class="form-row">
+				<label>Check in</label>
+			   <div class="form-element ">
+			   		<input class="input-text" type="text" placeholder="27 may"><button class="input-button button-calendar"></button>
+			  </div>
+			</div>
+			<div class="form-row">
+				<label>Check out</label>
+			   <div class="form-element">
+			   		<input class="input-text" type="text" placeholder="27 may"><button class="input-button button-calendar"></button>
+			  </div>
+			</div>
+			
+			<div class="form-row">
+				<input class="checkbox" type="checkbox" id="flexible">
+				<label class="label-checkbox" for="flexible">Flexible dates</label>
+			</div>
+		</fieldset>
+		<fieldset>
+			<div class="form-row inline-input">
+				<label>Adults</label>
+			   <div class="form-element">
+			   		<input class="input-text " type="text" placeholder="2"><button class="input-button arrow-button"></button>
+			  </div>
+			</div>
+			
+			<div class="form-row inline-input">
+				<label>Children</label>
+			   <div class="form-element">
+			   		<input class="input-text " type="text" placeholder="1"><button class="input-button arrow-button"></button>
+			  </div>
+			</div>
+</fieldset>	
+			 <button class="submit-button submit-search input-block " type="submit" >Search rooms</button>
+		
+		</form>
+		 </div>
+	<div class="destination box">
+		
+			<ul class="destination-navigation">
+				<li class="link active-link view-icon"><a  href="#"></a></li>
+				<li class="link loc-icon"><a  href="#"></a></li>
+				<li class="link star-icon"><a href="#"></a></li>
+			</ul>
+			<div class="destination-container">
+				<div class="img-container"><img src="img/place.png"></div>
+				<div class="destination-content">
+					<h3>My most favourite place in the world</h3>
+					<p><span>154</span>Reviews</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a pulvinar ipsum. Aliquam sit amet iaculis dolor. Vivamus sed diam sollicitudin. </p>
+					<a class="read-button" href="#">Read more</a>
+				</div>
+				<div class="rating">
+					<a class="item-rating" href="#"><span class="icon-rating comment"></span><span class=" number number-comment">752</span></a>
+					<a class="item-rating" href="#"><span class="icon-rating like"></span><span class="number number-like">2709</span></a>
+				</div>
+			</div>
+	</div>
+	<div class="email-box box">
+		<form class="email-form">
+			<div class="email-container form-row form-element input">
+				<input class=" add-email" type="button">
+				<span class="email"><span>Email@gmail.com</span><span class="delete-email"></span></span>
+				<!-- <span class="email"><span>Email2@gmail.com</span><span class="delete-email"></span></span> -->
+
+			</div>
+
+			
+			
+			<div class="form-row">
+			   <div class="form-element">
+			   		<input class="input-text" type="text"><input class="input-button add-file" type="button">
+			  </div>
+			</div>
+
+			<div class="form-row">
+			   <div class="form-element">
+			   	<textarea class="input input-text message"></textarea>
+			   		<!-- <input class="input-text message" type="text"> -->
+			   	</div>
+			</div>
+
+			<input class="submit-button submit-send" type="submit" value="Send">
+		</form>
+	</div>
+<!-- 	<div class="graph box">
+		<ul class="axis">
+			<li><span>40</span></li>
+			<li><span>30</span></li>
+			<li><span>20</span></li>
+			<li><span>0</span></li>
+		</ul>
+
+		<ul class="column-ul">
+			<li>
+				<div class="column" style="height: 100px;">
+	    			<div class="colour-background">
+	    			</div>
+				</div>
+				<span>Mon</span>
+			</li>	
+			<li>
+				<div class="column" style="height: 40px;">
+	    			<div class="colour-background">
+	    			</div>
+				</div>
+				<span>Tues</span>
+			</li>	
+			<li>
+				<div class="column" style="height: 25px;">
+	    			<div class="colour-background">
+	    			</div>
+				</div>
+				<span>Wed</span>
+			</li>	
+			<li>
+				<div class="column" style="height: 30px;">
+	    			<div class="colour-background">
+	    			</div>
+				</div>
+				<span></span>
+			</li>	
+			<li>
+				<div class="column" style="height: 10px;">
+	    			<div class="colour-background">
+	    			</div>
+				</div>
+				<span></span>
+			</li>	
+			<li>
+				<div class="column" style="height: 40px;">
+	    			<div class="colour-background">
+	    			</div>
+				</div>
+				<span></span>
+			</li>	
+			<li>
+				<div class="column" style="height: 18px;">
+	    			<div class="colour-background">
+	    			</div>
+				</div>
+				<span></span>
+			</li>	
+		</ul>
+	</div> -->
+</body>
+</html>
