@@ -1,0 +1,77 @@
+	*{
+ 		margin: 0;
+ 		padding: 0;
+ 	}
+ 	@font-face {
+		font-family: "BebasRegular";
+		src: url("fonts/BebasRegular.eot");
+		src: url("fonts/BebasRegular.eot?#iefix")format("embedded-opentype"),
+		url("fonts/BebasRegular.woff") format("woff"),
+		url("fonts/BebasRegular.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+}
+ 	body{
+ 		font-family: "BebasRegular";
+ 	}
+ 	form{
+ 		box-sizing: border-box;
+ 		width: 590px;
+ 		padding: 20px;
+ 		border: 13px solid #ebebeb;
+ 		background-color: #f8f8f8;
+ 		margin: 0 auto;
+ 		color: #787878;;
+ 	}
+ 		div{
+ 			max-width: 700px;
+ 			margin: 0 auto;
+ 			text-align: center;
+ 		}
+ 		label{
+ 			display: block;
+ 			font-size: 24px;
+		    line-height: 32px;
+		    letter-spacing: 0.8px;
+		    color: #787878;
+		    padding: 12px 24px;
+ 		}
+ 		label >*{
+ 			display: inline-block;
+ 			vertical-align: middle;
+ 		}
+ 		/*.radio, .name{
+ 			float: left;
+ 		}*/
+ 		input{
+ 			display: none;
+ 		}
+ 		.price{
+ 			float: right;
+ 		}
+ 		input:checked+label {
+ 			border: 1px solid #b8d7e2;
+			background: #ebf4f7;
+ 		}
+ 		input:checked+label .radioButton{
+ 			background-position: -32px 0;
+ 		}
+ 		.radioButton{
+ 			display: inline-block;
+ 			width: 32px;
+ 			height: 32px;
+ 			background: url(img/radio.png);
+ 			margin-right: 10px;
+ 		}
+ 		.wraper{
+ 			margin-top: 10px;
+ 			text-align: center;
+ 		}
+ 		.total{
+ 			font-size: 22px;
+ 		}
+ 		.count{
+ 			width: 50px;
+ 			height: 25px;
+ 			background: none;
+ 		}

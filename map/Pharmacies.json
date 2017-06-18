@@ -1,0 +1,24 @@
+[
+{
+	"name":"Аптека 1",
+	"coordslat": 56,
+	"coordslng": 25,
+	"img":"img/4.jpg",
+	"text":"ул. Минская 18"
+},
+{
+	"name":"Аптека 2",
+	"coordslat": 57,
+	"coordslng": 25.75,
+	"img":"img/5.jpg",
+	"text":"ул. Европейская 18"
+},
+{
+	"name":"Аптека 3",
+	"coordslat": 57,
+	"coordslng": 22.18,
+	"img":"img/6.jpg",
+	"text":"ул. Хоружей 18"
+}
+
+]
